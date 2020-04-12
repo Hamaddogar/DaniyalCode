@@ -7,5 +7,32 @@
 </head>
 <body>
     <h1>this is a new file</h1>
+    <form onsubmit="func(event)" >
+        UserName<input type="text" id="uname"  placeholder="uname"/>
+        userEmail<input type="text" id="useremail" name="useremail" placeholder="useremail"/>
+          UserPassord<input type="password" id="uPassword" placeholder="Password"/> </br>
+          <select id="city">
+              <option value="">--select city--</option>
+              <option value="Fsd">faislabad</option>
+            <option value="rwp">rawalpindi</option>
+            <option value="isl">islamabad</option>       </br>
+
+        </select> </br>
+
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+
+        <label for="other">Other</label>
+        <button  type="submit"  > Submit</button>
+
+    </form>
+    <script src="./new.js"></script>
 </body>
 </html>
